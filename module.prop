@@ -1,0 +1,6 @@
+id=libnfc-conf-systemless
+name=Systemless libnfc conf
+version=v1
+versionCode=1
+author=Tuuure
+description=Systemless libnfc-*.conf

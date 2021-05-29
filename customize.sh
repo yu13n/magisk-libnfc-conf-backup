@@ -1,6 +1,6 @@
 file_paths=$(find /system /vendor -name "libnfc-*.conf")
 
-if [ -n "$file_paths"]
+if [ -z "$file_paths" ]
 then
   abort "Failed! No libnfc-*.conf found!"
 fi
